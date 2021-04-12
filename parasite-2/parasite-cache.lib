@@ -21,20 +21,22 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x01
+# Connector_Generic_Conn_01x02
 #
-DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
+S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
+S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -151,11 +153,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# custom-power_BS-7-dk_Battery-Holders-Clips-Contacts
+# parasite-rescue_BS-7-dk_Battery-Holders-Clips-Contacts-custom-power
 #
-DEF custom-power_BS-7-dk_Battery-Holders-Clips-Contacts BAT 0 40 N Y 1 F N
+DEF parasite-rescue_BS-7-dk_Battery-Holders-Clips-Contacts-custom-power BAT 0 40 N Y 1 F N
 F0 "BAT" -50 150 60 H V R CNN
-F1 "custom-power_BS-7-dk_Battery-Holders-Clips-Contacts" -50 -150 60 H V R CNN
+F1 "parasite-rescue_BS-7-dk_Battery-Holders-Clips-Contacts-custom-power" -50 -150 60 H V R CNN
 F2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" 200 200 60 H I L CNN
 F3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" 200 300 60 V I L CNN
 F4 "BS-7-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -181,11 +183,11 @@ X ~ Pos 0 200 100 D 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# custom-power_HT7333-A-ht7333-a
+# parasite-rescue_HT7333-A-ht7333-a-custom-power
 #
-DEF custom-power_HT7333-A-ht7333-a L 0 40 Y Y 1 F N
+DEF parasite-rescue_HT7333-A-ht7333-a-custom-power L 0 40 Y Y 1 F N
 F0 "L" -150 150 60 H V C CNN
-F1 "custom-power_HT7333-A-ht7333-a" -100 250 60 H V C CNN
+F1 "parasite-rescue_HT7333-A-ht7333-a-custom-power" -100 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -196,11 +198,11 @@ X VOUT 3 500 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# custom-power_XB3303A
+# parasite-rescue_XB3303A-custom-power
 #
-DEF custom-power_XB3303A U 0 40 Y Y 1 F N
+DEF parasite-rescue_XB3303A-custom-power U 0 40 Y Y 1 F N
 F0 "U" 0 -400 50 H V C CNN
-F1 "custom-power_XB3303A" 0 350 50 H V C CNN
+F1 "parasite-rescue_XB3303A-custom-power" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -211,11 +213,11 @@ X GND 3 450 150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules
+# parasite-rescue_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules-esp32
 #
-DEF esp32_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules MOD 0 40 Y Y 1 F N
+DEF parasite-rescue_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules-esp32 MOD 0 40 Y Y 1 F N
 F0 "MOD" -400 50 60 H V L CNN
-F1 "esp32_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules" 200 -1000 60 V V C CNN
+F1 "parasite-rescue_parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules-esp32" 200 -1000 60 V V C CNN
 F2 "digikey-footprints:ESP32-WROOM-32D" 200 200 60 H I L CNN
 F3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" 200 300 60 H I L CNN
 F4 "1904-1010-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"

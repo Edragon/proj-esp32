@@ -1,6 +1,6 @@
 
 
-   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\kicad\parasite\gerber\parasite-B_SilkS.gbr' ----   Wed Mar 17 01:01:53 2021
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-B_SilkS.gbr' ----   Mon Apr 12 21:54:59 2021
 
 D10   --> D100
 D11   --> D101
@@ -8,42 +8,88 @@ D12   --> D102
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\kicad\parasite\gerber\parasite-Edge_Cuts.gbr' ----   Wed Mar 17 01:01:53 2021
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-Edge_Cuts.gbr' ----   Mon Apr 12 21:54:59 2021
 
 D10   --> D103
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\kicad\parasite\gerber\parasite-F_Cu.gbr' ----   Wed Mar 17 01:01:53 2021
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_Cu.gbr' ----   Mon Apr 12 21:54:59 2021
 
-D11   --> D104
-D12   --> D105
-D13   --> D106
-D14   --> D107
-D15   --> D108
-D16   --> D109
-D17   --> D110
-D18   --> D111
+D10   --> D104
+D11   --> D105
+D12   --> D106
+D13   --> D107
+D16   --> D108
+D17   --> D109
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\kicad\parasite\gerber\parasite-F_Paste.gbr' ----   Wed Mar 17 01:01:53 2021
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_Paste.gbr' ----   Mon Apr 12 21:54:59 2021
 
+D10   --> D110
+D11   --> D111
+D12   --> D112
+D13   --> D113
+D15   --> D114
+D16   --> D115
+D17   --> D116
+D18   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_SilkS.gbr' ----   Mon Apr 12 21:54:59 2021
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D13   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-B_SilkS.gbr' ----   Mon Apr 12 21:57:55 2021
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-Edge_Cuts.gbr' ----   Mon Apr 12 21:57:55 2021
+
+D10   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_Cu.gbr' ----   Mon Apr 12 21:57:56 2021
+
+D10   --> D104
+D11   --> D105
+D12   --> D106
+D13   --> D107
+D16   --> D108
+D17   --> D109
+D18   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_Paste.gbr' ----   Mon Apr 12 21:57:56 2021
+
+D10   --> D111
 D11   --> D112
 D12   --> D113
 D13   --> D114
-D14   --> D115
-D15   --> D116
-D16   --> D117
-D17   --> D118
-D18   --> D119
-D19   --> D120
+D15   --> D115
+D16   --> D116
+D17   --> D117
+D18   --> D118
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\kicad\parasite\gerber\parasite-F_SilkS.gbr' ----   Wed Mar 17 01:01:53 2021
+   ---- Transcoding 'D:\Git-proj\proj-esp32\parasite-2\gerber\parasite-F_SilkS.gbr' ----   Mon Apr 12 21:57:56 2021
 
-D10   --> D121
-D11   --> D122
-D12   --> D123
+D10   --> D119
+D11   --> D120
+D12   --> D121
+D13   --> D122
 -----------------------------------------------------------------

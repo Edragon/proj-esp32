@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name custom-power)(type Legacy)(uri E:/Git/kicad/lib/custom-power.lib)(options "")(descr ""))
   (lib (name esp32)(type Legacy)(uri E:/Git/kicad/lib/esp32.lib)(options "")(descr ""))
+  (lib (name parasite-rescue)(type Legacy)(uri ${KIPRJMOD}/parasite-rescue.lib)(options "")(descr ""))
 )

@@ -1,0 +1,53 @@
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-B_Paste.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-B_SilkS.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D10   --> D101
+D11   --> D102
+D12   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-Edge_Cuts.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D10   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-F_Cu.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D12   --> D105
+D13   --> D106
+D14   --> D107
+D17   --> D108
+D18   --> D109
+D19   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-F_Paste.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D10   --> D111
+D11   --> D112
+D12   --> D113
+D13   --> D114
+D15   --> D115
+D16   --> D116
+D17   --> D117
+D18   --> D118
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\ADMINI~1\AppData\Local\Temp\parasite-v2_importZIP\parasite-F_SilkS.gbr' ----   Mon Apr 12 22:22:20 2021
+
+D10   --> D119
+D11   --> D120
+D12   --> D121
+D13   --> D122
+-----------------------------------------------------------------

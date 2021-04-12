@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L esp32:parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules MOD1
+L parasite-rescue:parasite-rescue_ESP32-WROOM-32-dk_RF-Transceiver-Modules-esp32 MOD1
 U 1 1 600B059D
 P 2450 1350
 F 0 "MOD1" H 1600 -775 60  0000 C CNN
@@ -70,7 +70,6 @@ F 3 "" H 2600 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 3600 2600 3450
-Connection ~ 2600 3450
 $Comp
 L Device:R_Small_US R2
 U 1 1 600C897C
@@ -115,7 +114,7 @@ F 3 "" H 4925 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom-power:HT7333-A-ht7333-a L1
+L parasite-rescue:HT7333-A-ht7333-a-custom-power L1
 U 1 1 600BCB7B
 P 5325 6425
 F 0 "L1" H 5375 6928 60  0000 C CNN
@@ -163,7 +162,7 @@ $EndComp
 Wire Wire Line
 	3350 2250 3950 2250
 Wire Wire Line
-	3350 2350 4325 2350
+	3350 2350 3950 2350
 Text Label 1550 2350 0    50   ~ 0
 PWM
 Text Label 825  4400 0    50   ~ 0
@@ -513,8 +512,6 @@ F 3 "~" H 6425 6225 50  0001 C CNN
 	1    6425 6225
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6425 6225 6175 6225
 Connection ~ 6000 6225
 $Comp
 L Device:C_Small Cpara1
@@ -571,10 +568,6 @@ Wire Wire Line
 Connection ~ 1750 6100
 Wire Wire Line
 	1750 6100 1750 6150
-Connection ~ 6175 6225
-Wire Wire Line
-	6175 6225 6000 6225
-Connection ~ 5825 6725
 Wire Wire Line
 	3350 1550 3700 1550
 Text Label 3700 1550 0    50   ~ 0
@@ -651,7 +644,7 @@ Wire Wire Line
 Text Label 1750 5700 0    50   ~ 0
 Disch
 $Comp
-L custom-power:BS-7-dk_Battery-Holders-Clips-Contacts BAT1
+L parasite-rescue:BS-7-dk_Battery-Holders-Clips-Contacts-custom-power BAT1
 U 1 1 6020F3E7
 P 4825 4700
 F 0 "BAT1" V 5112 4700 60  0000 C CNN
@@ -703,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4775 5250 4900
 $Comp
-L custom-power:XB3303A U1
+L parasite-rescue:XB3303A-custom-power U1
 U 1 1 602715EA
 P 6225 4650
 F 0 "U1" H 6200 4185 50  0000 C CNN
@@ -765,65 +758,9 @@ Wire Notes Line
 Wire Notes Line
 	4150 5300 7100 5300
 Wire Wire Line
-	4450 4900 5250 4900
+	4450 4900 4825 4900
 Wire Wire Line
-	2450 3450 2600 3450
-Wire Wire Line
-	2600 3450 2750 3450
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 60704832
-P 6675 5825
-F 0 "J4" H 6755 5867 50  0000 L CNN
-F 1 "Conn_01x01" H 6755 5776 50  0000 L CNN
-F 2 "pin:PinHeader_1x01_P2.54mm_Vertical" H 6675 5825 50  0001 C CNN
-F 3 "~" H 6675 5825 50  0001 C CNN
-	1    6675 5825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6475 5825 6175 5825
-Wire Wire Line
-	6175 5825 6175 6225
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 60707B1C
-P 6700 6725
-F 0 "J5" H 6780 6767 50  0000 L CNN
-F 1 "Conn_01x01" H 6780 6676 50  0000 L CNN
-F 2 "pin:PinHeader_1x01_P2.54mm_Vertical" H 6700 6725 50  0001 C CNN
-F 3 "~" H 6700 6725 50  0001 C CNN
-	1    6700 6725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5825 6725 6500 6725
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 6070A13A
-P 3950 1825
-F 0 "J2" V 3914 1737 50  0000 R CNN
-F 1 "Conn_01x01" V 3823 1737 50  0000 R CNN
-F 2 "pin:PinHeader_1x01_P2.54mm_Vertical" H 3950 1825 50  0001 C CNN
-F 3 "~" H 3950 1825 50  0001 C CNN
-	1    3950 1825
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 6070AC08
-P 4325 1825
-F 0 "J3" V 4289 1737 50  0000 R CNN
-F 1 "Conn_01x01" V 4198 1737 50  0000 R CNN
-F 2 "pin:PinHeader_1x01_P2.54mm_Vertical" H 4325 1825 50  0001 C CNN
-F 3 "~" H 4325 1825 50  0001 C CNN
-	1    4325 1825
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4325 2025 4325 2350
-Wire Wire Line
-	3950 2025 3950 2250
+	2450 3450 2550 3450
 Wire Wire Line
 	1425 1450 1575 1450
 $Comp
@@ -884,4 +821,92 @@ Text Label 1050 1550 0    50   ~ 0
 IO0
 Text Label 1675 1450 0    50   ~ 0
 en
+Connection ~ 4825 4900
+Wire Wire Line
+	4825 4900 5250 4900
+Connection ~ 2550 3450
+Connection ~ 2650 3450
+Wire Wire Line
+	2650 3450 2750 3450
+Wire Wire Line
+	2550 3450 2600 3450
+Wire Wire Line
+	2600 3450 2650 3450
+Connection ~ 2600 3450
+$Comp
+L power:GND #PWR0115
+U 1 1 6075A088
+P 8750 5000
+F 0 "#PWR0115" H 8750 4750 50  0001 C CNN
+F 1 "GND" H 8755 4827 50  0000 C CNN
+F 2 "" H 8750 5000 50  0001 C CNN
+F 3 "" H 8750 5000 50  0001 C CNN
+	1    8750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6225 6425 6225
+$Comp
+L power:+BATT #PWR0120
+U 1 1 6075B7C9
+P 7625 4950
+F 0 "#PWR0120" H 7625 4800 50  0001 C CNN
+F 1 "+BATT" H 7640 5123 50  0000 C CNN
+F 2 "" H 7625 4950 50  0001 C CNN
+F 3 "" H 7625 4950 50  0001 C CNN
+	1    7625 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0121
+U 1 1 6075BE38
+P 8250 4200
+F 0 "#PWR0121" H 8250 4050 50  0001 C CNN
+F 1 "+BATT" H 8265 4373 50  0000 C CNN
+F 2 "" H 8250 4200 50  0001 C CNN
+F 3 "" H 8250 4200 50  0001 C CNN
+	1    8250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5000 8750 4700
+Wire Wire Line
+	8250 4700 8250 4200
+Text Label 8250 4275 0    50   ~ 0
++BATT
+Text Label 8750 4825 0    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 60778BF9
+P 4150 2250
+F 0 "J2" H 4230 2242 50  0000 L CNN
+F 1 "Conn_01x02" H 4230 2151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 2250 50  0001 C CNN
+F 3 "~" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6077BE36
+P 8450 4700
+F 0 "J?" H 8530 4692 50  0000 L CNN
+F 1 "Conn_01x02" H 8530 4601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 4700 50  0001 C CNN
+F 3 "~" H 8450 4700 50  0001 C CNN
+	1    8450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6077C81C
+P 8250 4800
+F 0 "#PWR?" H 8250 4550 50  0001 C CNN
+F 1 "GND" H 8255 4627 50  0000 C CNN
+F 2 "" H 8250 4800 50  0001 C CNN
+F 3 "" H 8250 4800 50  0001 C CNN
+	1    8250 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
