@@ -1,0 +1,46 @@
+
+
+   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\pb-gerber\panelize-B_SilkS.gbr' ----   Tue Mar 30 01:03:39 2021
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\pb-gerber\panelize-Edge_Cuts.gbr' ----   Tue Mar 30 01:03:39 2021
+
+D10   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\pb-gerber\panelize-F_Cu.gbr' ----   Tue Mar 30 01:03:39 2021
+
+D11   --> D104
+D12   --> D105
+D13   --> D106
+D14   --> D107
+D15   --> D108
+D16   --> D109
+D17   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\pb-gerber\panelize-F_Paste.gbr' ----   Tue Mar 30 01:03:39 2021
+
+D11   --> D111
+D12   --> D112
+D13   --> D113
+D14   --> D114
+D15   --> D115
+D16   --> D116
+D17   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\git-category\proj-esp32\w-parasite-main\pb-gerber\panelize-F_SilkS.gbr' ----   Tue Mar 30 01:03:39 2021
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+-----------------------------------------------------------------
