@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name esp32)(type KiCad)(uri E:/Git/kicad/modules/esp32.pretty)(options "")(descr ""))
-)
